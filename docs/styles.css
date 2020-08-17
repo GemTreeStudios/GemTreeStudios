@@ -1,5 +1,10 @@
+@font-face { font-family: miti; src: url('mitimasu.ttf'); } 
+
+
 body {
   font-family: "Lato", sans-serif;
+  background: rgb(224,254,198);
+  background: linear-gradient(90deg, rgba(224,254,198,1) 0%, rgba(83,145,20,1) 100%); 
 }
 
 .sidenav {
@@ -9,21 +14,22 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: rgba(83,145,20,1);
   overflow-x: hidden;
   padding-top: 20px;
+  font-family: miti, sans-serif;
 }
 
 .sidenav a {
-  padding: 6px 8px 6px 16px;
+  padding: 6px 8px 60px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #cfcfcf;
   display: block;
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #fafafa;
 }
 
 .main {
@@ -38,9 +44,24 @@ body {
 }
 .row > div {
     padding: 2em;
-    background-color: teal;
-    border: 0.1em solid orangered;
+    background-color: none;
+    border: 0.1em solid none;
 }
 .logo {
     text-align: center;
+}
+.logo-img {
+  max-width: 10%;
+}
+p {
+  font-size: 24px;
+  font-family: miti, sans-serif;
+}
+h1 {
+  font-size: 92px;
+  font-family: miti, sans-serif;
+}
+h2 {
+  font-size: 64px;
+  font-family: miti, sans-serif;
 }
