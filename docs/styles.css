@@ -57,12 +57,19 @@ p {
   font-size: 24px;
   font-family: miti, sans-serif;
 }
+li {
+  font-size: 24px;
+  font-family: miti, sans-serif;
+}
 h1 {
   font-size: 92px;
   font-family: miti, sans-serif;
 }
 h2 {
   font-size: 64px;
+  font-family: miti, sans-serif;
+}
+body {
   font-family: miti, sans-serif;
 }
 .img {
